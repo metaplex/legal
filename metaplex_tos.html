@@ -1,10 +1,16 @@
 <style>
+ul {
+  margin:  16px 0;
+}
+
 ol {
     counter-reset: item;
+    margin: 16px 0;
 }
 
 ol > li {
     counter-increment: item;
+    margin-bottom: 16px;
 }
 
 ol ol > li {
@@ -13,7 +19,7 @@ ol ol > li {
 
 ol ol > li:before {
     content: counters(item, ".") ". ";
-    margin-left: -20px;
+    margin-left: -36px;
 }
 </style>
 <h1>Metaplex Studios Terms of Service</h1>
